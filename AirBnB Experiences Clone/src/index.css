@@ -1,6 +1,7 @@
 body{
   margin: 0;
   background-color:white;
+  font-family: 'Poppins', 'sans-serif';
 }
 
 .nav-bar{
@@ -23,4 +24,16 @@ body{
 .hero-section-container{
   display: flex;
   flex-direction: column;
+}
+
+.hero-header{
+  margin-bottom: 0px;
+  padding: 10px;
+}
+
+.hero-description{
+  margin-top: 0px;
+  max-width: 380px;
+  word-wrap: break-word;
+  padding: 10px;
 }

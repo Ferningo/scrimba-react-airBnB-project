@@ -5,8 +5,8 @@ function HeroSection(){
         <div className='hero-section-container'>
             <img className='photo-grid' src={photoGrid} alt="" />
             <h1 className='hero-header'>Online Experiences</h1>
-            <h3 className='hero-description'>Join unique interactive activities led by 
-                one-of-a-king hosts-all without leaving home.</h3>
+            <p className='hero-description'>Join unique interactive activities led by 
+                one-of-a-kind hosts-all without leaving home.</p>
         </div>
     )
 }
