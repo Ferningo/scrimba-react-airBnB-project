@@ -1,4 +1,14 @@
 body{
   margin: 0;
-  background-color:darkslategrey;
+  background-color:white;
+}
+
+.nav-bar{
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.airbnb-logo{
+  height: 45px;
 }
