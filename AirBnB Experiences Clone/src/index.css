@@ -5,10 +5,22 @@ body{
 
 .nav-bar{
   display: flex;
-  border: 1px solid black;
   padding: 10px;
+  box-shadow: 0 0 1px 1px #a49e9e;
 }
 
 .airbnb-logo{
   height: 45px;
+}
+
+.photo-grid{
+  max-height: 240px;
+  max-width: 400px;
+  margin-top: 60px;
+  align-self: center;
+}
+
+.hero-section-container{
+  display: flex;
+  flex-direction: column;
 }
