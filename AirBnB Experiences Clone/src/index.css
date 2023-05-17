@@ -2,6 +2,7 @@ body{
   margin: 0;
   background-color:white;
   font-family: 'Poppins', 'sans-serif';
+  /* background-color: #a49e9e; */
 }
 
 .nav-bar{
@@ -37,3 +38,43 @@ body{
   word-wrap: break-word;
   padding: 10px;
 }
+
+.card-container{
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  padding: 10px;
+}
+
+.card-stats,
+.card-title,
+.card-price{
+  font-size: 12px;
+  padding: 2px;
+  margin: 0;
+}
+
+.star-logo{
+  max-width: 14px;
+}
+
+.stats-container{
+  display: flex;
+  align-items: center;
+  color: #918E9B;
+}
+
+.price{
+  font-weight: bold;
+}
+
+.card-image{
+  border-radius: 9px;
+}
+
+.rating{
+  color: black;
+}
+
+
+
