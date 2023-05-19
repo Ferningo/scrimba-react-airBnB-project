@@ -2,7 +2,7 @@ body{
   margin: 0;
   background-color:white;
   font-family: 'Poppins', 'sans-serif';
-  /* background-color: #a49e9e; */
+  background-color: #a49e9e;
 }
 
 .nav-bar{
@@ -101,7 +101,8 @@ Cat stuff!
 }
 
 .contact-card > img {
-  width: 100%;
+  max-width: 225px;
+  max-height: 155px;
   height: auto;
   align-self: center;
   border-radius: 5px;

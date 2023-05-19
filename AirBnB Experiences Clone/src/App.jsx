@@ -7,6 +7,7 @@ import mrWhiskeronImg from './assets/cats/mr-whiskerson.png'
 import fluffykins from './assets/cats/fluffykins.png'
 import felix from './assets/cats/felix.png'
 import pumpkin from './assets/cats/pumpkin.png'
+import sraNorris from './assets/cats/sraNorris.jpeg'
 
 
 
@@ -24,10 +25,10 @@ function App() {
         email="mr.whiskaz@catnap.meow"
         />
         <Contact 
-        img={fluffykins}
-        name="Fluffykins"
+        img={sraNorris}
+        name="Sra. Norris"
         phone="(212) 555-2345"
-        email="fluff@me.com"
+        email="Norris@gmail.com"
         />
         <Contact 
         img={felix} 
