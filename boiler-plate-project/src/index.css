@@ -1,10 +1,11 @@
 body{
     margin: 0;
-    background-color: #1C6E85;
+    background-color: #3F5A62;
     font-family: 'Poppins', sans-serif;
 }
 
 #root{
+    margin-top: 5px;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -15,6 +16,8 @@ body{
 }
 
 .joke-container{
+    padding: 5px;
+    font-size: 18px;
     min-width: 500px;
     max-width: 500px;
     border-radius: 9px;
