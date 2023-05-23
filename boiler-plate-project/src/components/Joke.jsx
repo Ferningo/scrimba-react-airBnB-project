@@ -1,5 +1,4 @@
 function Joke(props){
-
     return(
         <div className="joke-container">
             {props.setup && <div className="joke-setup">{props.setup}</div>}
