@@ -26,6 +26,7 @@ function App() {
   return (
     <>
       <NavBar />
+      <HeroSection />
       <div className="contact-container">
         {cards}
       </div>
