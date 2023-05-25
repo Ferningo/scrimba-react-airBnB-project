@@ -18,6 +18,7 @@ const createCardArray = (data) => {
         location = {cardInfo.location}
         title = {cardInfo.title}
         price = {cardInfo.price}
+        openSpots = {cardInfo.openSpots}
       Card/>
       )
   })

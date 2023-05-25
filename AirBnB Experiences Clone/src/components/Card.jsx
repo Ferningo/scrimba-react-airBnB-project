@@ -2,8 +2,10 @@
 import star from '../assets/star.png'
 
 export default function Card(props){
+
     return(
         <div className="card-container">
+            { props.openSpots <= 0 && <div className='badge'>SOLD OUT</div>}
             <img src={props.img} alt="" className='card-image' />
             <div className='stats-container'>
                 <img src={star} className='star-logo'/>
