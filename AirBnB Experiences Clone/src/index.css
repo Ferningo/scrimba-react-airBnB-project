@@ -2,7 +2,7 @@ body{
   margin: 0;
   background-color:white;
   font-family: 'Poppins', 'sans-serif';
-  background-color: burlywood;
+  /* background-color: burlywood; */
 }
 
 .nav-bar{
@@ -135,6 +135,7 @@ Cat stuff!
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  /* max-width: 70%; */
+  /* border: 2px solid black;
+  min-height: 90vh; */
 }
 

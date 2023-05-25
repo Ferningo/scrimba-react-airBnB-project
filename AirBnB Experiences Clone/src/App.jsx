@@ -2,30 +2,36 @@ import Card from "./components/Card"
 import Contact from "./components/Contact"
 import HeroSection from "./components/HeroSection"
 import NavBar from "./components/NavBar"
-
 import katieImg from "./assets/katie-zaferes.png" 
+import data from "./data"
 
 
-// - reviewCount (6)
-// - country (Whatever you want)
-// - title ("Life Lessons with Katie Zaferes")
-// - price (136)
-
+const createCardArray = (data) => {
+  const cards = data.map((cardInfo) => {
+    return(
+      // eslint-disable-next-line react/jsx-key
+      <Card
+        imagePath={katieImg}
+        rating = {cardInfo.stats.rating}
+        reviewCount = {cardInfo.stats.reviewCount}
+        location = {cardInfo.location}
+        title = {cardInfo.title}
+        price = {cardInfo.price}
+      Card/>
+      )
+  })
+  return cards
+}
 
 
 function App() {
+  const cards = createCardArray(data)
+
   return (
     <>
       <NavBar />
       <div className="contact-container">
-        <Card
-          imagePath={katieImg}
-          rating="5.0"
-          reviewCount={6}
-          country='USA'
-          title='Life Lessons with Katie Zaferes'
-          price={136}
-        />
+        {cards}
       </div>
     </>
   )
