@@ -10,9 +10,9 @@ import data from "./data"
 const createCardArray = (data) => {
   const cards = data.map((cardInfo) => {
     return(
-      // eslint-disable-next-line react/jsx-key
       <Card
-        img={cardInfo.coverImg}
+        key = {cardInfo.id}
+        img= {cardInfo.coverImg}
         rating = {cardInfo.stats.rating}
         reviewCount = {cardInfo.stats.reviewCount}
         location = {cardInfo.location}
