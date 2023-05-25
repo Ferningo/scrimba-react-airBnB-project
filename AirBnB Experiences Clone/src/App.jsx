@@ -2,8 +2,9 @@ import Card from "./components/Card"
 import Contact from "./components/Contact"
 import HeroSection from "./components/HeroSection"
 import NavBar from "./components/NavBar"
-import katieImg from "./assets/katie-zaferes.png" 
+
 import data from "./data"
+
 
 
 const createCardArray = (data) => {
@@ -11,7 +12,7 @@ const createCardArray = (data) => {
     return(
       // eslint-disable-next-line react/jsx-key
       <Card
-        imagePath={katieImg}
+        img={cardInfo.coverImg}
         rating = {cardInfo.stats.rating}
         reviewCount = {cardInfo.stats.reviewCount}
         location = {cardInfo.location}
